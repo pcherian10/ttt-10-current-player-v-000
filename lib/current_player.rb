@@ -1,6 +1,6 @@
 def turn_count (board)
-  counter =
-  board.each.with_index {|space| counter += 1
   
+  board.each.with_index {|space, index| counter = index + 1 if space != " " || space != ""}
+  counter
 end
   
