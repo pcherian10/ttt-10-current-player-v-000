@@ -1,7 +1,13 @@
 def turn_count (board)
   counter = nil
-  board.each.with_index {|space, index| counter = index + 1 if space != " " || space != ""}
-  counter
+  board.each do |space|
+    
+    
+  
+  end
+  
+  
+  
 end
   
 def current_player (board)
